@@ -65,9 +65,20 @@ h3{
     grid-template:
     'list1'
     'list2'
-    'list3'
-    'list4';
+    'list3';
 
+}
+
+.list1{
+    grid-area: list3;
+}
+
+.list2{
+    grid-area: list2;
+}
+
+.list3{
+    grid-area: list3;
 }
 
 .list1-1{
