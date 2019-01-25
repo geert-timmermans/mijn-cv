@@ -14,6 +14,7 @@ h2{
     font-size: 15px;
     text-align: left;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 .icoon{
@@ -127,12 +128,41 @@ h2{
 .list3{
 }
 
-.box1 { 
-    
+.title { 
+    border-bottom: 1px solid black;
 }
 
-.box2 { 
-    
+.education { 
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.education1{
+    background-color: yellow;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.education1-1{
+    background-color: green;
+    width: 100%;
+}
+
+.education1-2{
+    background-color: blue;
+    margin-left: 20px;
+    margin-top: 5px;
+    height: 25px;
+}
+
+.education h2{
+    font-size: 20px;
+}
+
+.education2{
+    background-color: red;
+    width: 100%;
 }
 
 .box3 { 
