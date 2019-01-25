@@ -1,25 +1,23 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1{
-    font-size: 30px;
     text-align: left;
+    font-size: 30px;
+    font-weight: bolder;
 }
 
 h2{
-    font-size: 20px;
-    text-align: left;
-}
-
-h3{
-    font-weight: bold;
     font-size: 15px;
     text-align: left;
+    font-weight: bold;
 }
 
 .icoon{
-    font-size: 9px;
+    font-size: 10px;
     /*color:white;*/
 }
 
@@ -44,36 +42,38 @@ h3{
     font-size: 30px;
 }
 
-#image{
-    width: 110px;
-    height: 110px;
-    border-radius: 110px;
-    border: 2px solid black;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .container .menu { 
     background-color: #fff;
     grid-area: menu;
     display: grid;
     grid-template:
+    'foto'
     'list1'
     'list2'
     'list3';
+}
 
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.foto{
+    background-image: url(images/Pasfoto.jpg);
+    background-size: cover;
+    width: 100px;
+    height: 125px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lists{
+    margin-top: 30px;
 }
 
 .list1{
-    grid-area: list3;
-}
-
-.list2{
-    grid-area: list2;
-}
-
-.list3{
-    grid-area: list3;
+    
 }
 
 .list1-1{
@@ -82,10 +82,6 @@ h3{
     justify-content: flex-start;
     flex-direction: row;
     align-items: baseline;
-}
-
-.icoon{
-    justify-content: start;
 }
 
 .info{
@@ -100,6 +96,35 @@ h3{
 
 .info2{
     text-align: left;
+}
+
+.list2{
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.list2-1{
+    background-color: #999;  
+    width: 100%;  
+}
+
+.list2-2{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.list2-2-1{
+    font-size: 10px;
+}
+
+.list2-3{
+}
+
+.list3{
 }
 
 .box1 { 
