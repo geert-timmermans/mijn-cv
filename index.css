@@ -216,7 +216,7 @@ p{
     position: absolute;
     width: 6px;
     background-color: white;
-    top: 0;
+    top: 10px;
     bottom: 0;
     left: 50%;
     margin-left: -3px;
@@ -272,7 +272,7 @@ p{
 
 .timeline::after {
     left: 24px;
-    /* height: 200px; */
+    height: 245px;
 }
 
 .timeline1 {
