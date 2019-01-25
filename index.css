@@ -11,10 +11,27 @@ h1{
 }
 
 h2{
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h3{
     font-size: 15px;
     text-align: left;
     font-weight: bold;
     text-decoration: underline;
+}
+
+h4{
+    font-size: 21px;
+    text-align: center;
+    font-weight: bolc;
+}
+
+p{
+    font-size: 15px;
 }
 
 .icoon{
@@ -62,9 +79,10 @@ h2{
 .foto{
     background-image: url(images/Pasfoto.jpg);
     background-size: cover;
-    width: 100px;
-    height: 125px;
+    width: 125px;
+    height: 150px;
     border: 2px solid black;
+    border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -107,7 +125,6 @@ h2{
 }
 
 .list2-1{
-    background-color: #999;  
     width: 100%;  
 }
 
@@ -138,26 +155,33 @@ h2{
 }
 
 .education1{
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
 }
 
 .education1-1{
-    background-color: green;
-    width: 100%;
+    /* background-color: green; */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin-left: 5px;
+}
+
+.icoon2{
+    font-size: 20px;
 }
 
 .education1-2{
-    background-color: blue;
-    margin-left: 20px;
-    margin-top: 5px;
+    /* background-color: blue; */
+    margin-left: 10px;
+    margin-top: 9px;
     height: 25px;
-}
-
-.education h2{
-    font-size: 20px;
 }
 
 .education2{
@@ -175,4 +199,99 @@ h2{
 
 .box5 { 
     
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.timeline1 {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.timeline1::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid #FF9F55;
+    top: 30px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.secundary {
+    left: 50%;
+}
+
+.secundary::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 30px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+
+.secundary::after {
+    left: -16px;
+}
+
+.content {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+}
+
+.timeline::after {
+    left: 24px;
+    /* height: 200px; */
+}
+
+.timeline1 {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+.timeline1::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+
+.secundary::after {
+    left: 15px;
+}
+
+.secundary {
+    left: 0%;
 }
