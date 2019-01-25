@@ -18,14 +18,9 @@ h3{
     text-align: left;
 }
 
-.fas{
+.icoon{
     font-size: 9px;
-    /*color: white;*/
-}
-
-.fab{
-    font-size: 9px;
-    /*color: white;*/
+    /*color:white;*/
 }
 
 .container{
@@ -108,21 +103,21 @@ h3{
 }
 
 .box1 { 
-    grid-area: box1;
+    
 }
 
 .box2 { 
-    grid-area: box2; 
+    
 }
 
 .box3 { 
-    grid-area: box3; 
+    
 }
 
 .box4 { 
-    grid-area: box4; 
+    
 }
 
 .box5 { 
-    grid-area: box5; 
+    
 }
