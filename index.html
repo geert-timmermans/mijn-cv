@@ -18,23 +18,23 @@
 <!--        Row with header, aside and main-->
         <img src="assets/images/Pasfoto.jpg" class="img-fluid image" alt="Foto Geert">
 <!--        Header with name and job title-->
-        <header class="w-100 text-center py-3 bg-primary">
-            <h1>Geert Timmermans</h1>
-            <h2>Junior Web Developer</h2>
+        <header class="w-100 text-center py-3">
+            <h1 class="ml-4">Geert Timmermans</h1>
+            <h2 class="ml-2">Junior Web Developer</h2>
         </header>
 <!--        Aside with contact information-->
-        <aside class="asideTop contact col-4">
+        <aside class="contact col-4">
             <div class="d-flex pt-4">
-                <h4><em>#</em>   Contact</h4>
+                <h4><em># </em>Contact</h4>
             </div>
             <div class="d-flex mt-3">
                 <div class="mr-3">
-                    <ul class="contactList">
-                        <li><p>e-mail:</p></li>
-                        <li><p>Gsm:</p></li>
-                        <li><p>Adres:</p></li>
-                        <li><p>github:</p></li>
-                        <li><p>linkedin:</p></li>
+                    <ul class="contactList d-flex flex-column align-items-center">
+                        <li><p><i class="contact-icon far fa-envelope"></i></p></li>
+                        <li><p><i class="contact-icon fas fa-mobile-alt"></i></p></li>
+                        <li><p><i class="contact-icon fas fa-map-marker-alt"></i></p></li>
+                        <li><p><i class="contact-icon fab fa-github"></i></p></li>
+                        <li><p><i class="contact-icon fab fa-linkedin"></i></p></li>
                     </ul>
                 </div>
                 <div class="">
@@ -42,8 +42,8 @@
                         <li><p>geert.timmermans08@gmail.com</p></li>
                         <li><p>+32 493 12 39 95</p></li>
                         <li><p>3950 Bocholt</p></li>
-                        <li><p>github.com/geert-timmermans</p></li>
-                        <li><p>linkedin.com/in/geert-timmermans08</p></li>
+                        <li><p><a href="https://github.com/geert-timmermans" id="test">geert-timmermans</a></p></li>
+                        <li><p><a href="https://www.linkedin.com/in/geert-timmermans08/">geert-timmermans08</a></p></li>
                     </ul>
                 </div>
             </div>
@@ -51,10 +51,10 @@
 
 
 <!--        Main with skill logos and personal information-->
-        <main class="mainTop col-8 mt-3">
+        <main class="mainTop col-8 pt-3 pr-3">
 <!--            skills with logos-->
             <div class="iconsDiv">
-                <h4><em>#</em>   Skills</h4>
+                <h4><em># </em>Skills</h4>
                 <div class="d-flex justify-content-between">
                     <div class="d-flex flex-column align-items-center">
                         <img src="assets/images/html.png" alt="image html" class="icons">
@@ -73,11 +73,7 @@
                         Bootstrap
                     </div>
                 </div>
-                <div class="d-flex justify-content-between">
-                    <div class="d-flex flex-column align-items-center">
-                        <img src="assets/images/javascript.png" alt="image javascript" class="icons">
-                        Javascript
-                    </div>
+                <div class="d-flex justify-content-around">
                     <div class="d-flex flex-column align-items-center">
                         <img src="assets/images/php.png" alt="image php" class="icons">
                         PHP
@@ -91,11 +87,22 @@
                         MySql
                     </div>
                 </div>
+                <div class="d-flex justify-content-around">
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="assets/images/javascript.png" alt="image javascript" class="icons">
+                        Javascript
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="assets/images/JQuery.png" alt="image php" class="icons">
+                        JQuery
+                    </div>
+
+                </div>
             </div>
 <!--            personal info-->
             <div class="mt-4 personal">
-                <h4><em>#</em>   Personal</h4>
-                Mijn naam is Geert, een flexibele, resultaatgerichte werknemer. Ik heb reeds een ruime ervaring in het bedrijfsleven in verschillende functies. Ik weet daarom dat je alleen moet kunnen werken, maar ik ken ook de kracht van teamwork. Ook niet onbelangrijk: ik beschik over een goede portie humor en heb zelden eeen ochtendhumeur!
+                <h4><em># </em>Personal</h4>
+                Mijn naam is Geert. Ik zie mezelf als een flexibele, resultaatgerichte werknemer. Ik heb reeds een ruime ervaring in het bedrijfsleven in verschillende functies. In januari ben ik wegens interesse aan de opleiding web-developer begonnen. Vooral back-end development vind ik een positieve uitdaging. Ook niet onbelangrijk: ik beschik over een goede portie humor en heb zelden een ochtendhumeur!
             </div>
         </main>
     </div>
@@ -103,10 +110,10 @@
 <!--    Row with main and bottom-->
     <div class="row">
         <!--        aside with languages, competences and hobby's-->
-        <aside class="asideBottem col-4 pt-3">
+        <aside class="col-4 pt-3">
 <!--            Talen-->
             <div class="mb-5">
-                <h4><em>#</em>   Talen</h4>
+                <h4><em># </em>Talen</h4>
                 <div class="d-flex ml-4 mt-3">
                     <div>
                         <ul class="languageList">
@@ -137,32 +144,42 @@
                 </div>
             </div>
 <!--            div for border-->
-            <div class="border-language"></div>
+            <div class="border-aside"></div>
 <!--            Soft Skills-->
             <div class="my-5">
-                <h4><em>#</em>   Soft Skills</h4>
+                <h4><em># </em>Soft Skills</h4>
                 <div class="ml-4">
                     Eerlijk, Flexibel, Zelfstandig, Teamplayer, Leergierig, Stipt, Stressbestendig
                 </div>
             </div>
 <!--            div for border-->
-            <div class="border-language"></div>
+            <div class="border-aside"></div>
 <!--            Hobby's-->
             <div class="my-5">
-                <h4><em>#</em>   Hobbies</h4>
+                <h4><em># </em>Hobbies</h4>
                 <div class="ml-4">
                     Snowboarden, Wandelen, Series kijken, Lezen
                 </div>
             </div>
 <!--            div for border-->
-            <div class="border-language"></div>
+            <div class="border-aside"></div>
+            <div class="my-5">
+                <h4><em># </em>Referenties</h4>
+                <div class="ml-4">
+                    Lesley Forn<br>(Coach BeCode):<br><span class="ml-4">+32 486 83 33 95</span><br>
+                    <div class="mt-3">Rafael Lambelin<br>(Coach BeCode):<br><span class="ml-4">+32 470 67 16 05</span></div>
+                    <div class="mt-3">Yves Vanderlinden<br>(BUM Teleperformance):<br><span class="ml-4">+31 6 54 93 55 26</span></div>
+                </div>
+            </div>
+<!--            div for border-->
+            <div class="border-aside"></div>
         </aside>
 
 <!--        Main with work experience and education-->
-        <main class="mainBottom experience col-7 mt-3 ml-5">
+        <main class="mainBottom col-8 pt-3 px-5">
 <!--            work experience-->
             <div>
-                <h4><em>#</em>   Werkervaring</h4>
+                <h4><em># </em>Werkervaring</h4>
                 <div class="mt-3 d-flex justify-content-between">
                    <div class="d-flex flex-column">
                        <div class =years>Januari 2019 - Heden</div>
@@ -230,7 +247,7 @@
             </div>
 <!--            education-->
             <div class="mt-3 mb-5">
-                <h4><em>#</em>   Opleidingen</h4>
+                <h4><em># </em>Opleidingen</h4>
                 <div class="d-flex">
                     <div class="w-50 years">Januari 2019 - Heden</div>
                     <div class="w-50">Junior Web Developer   /   BeCode - Genk</div>
@@ -254,49 +271,6 @@
         </main>
     </div>
 </div>
-<!--<div class="container">-->
-<!--    <div class="row">-->
-<!--        <aside class="col-md-4 bg-info pt-5">-->
-
-<!--                <img src="assets/images/Pasfoto.jpg" class="img-fluid image" alt="Foto Geert">-->
-
-<!--&lt;!&ndash;            Personal info&ndash;&gt;-->
-<!--            <div class="mt-5">-->
-<!--                <h2>Personal</h2>-->
-<!--                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet blanditiis dolorem, doloremque dolores eos eum fugiat id ipsam magnam, minima mollitia nesciunt nihil possimus quam quibusdam sit ullam vel?</p>-->
-<!--            </div>-->
-
-<!--&lt;!&ndash;            Front-End skill&ndash;&gt;-->
-<!--            <div>-->
-<!--                <h2>Front-End</h2>-->
-<!--                <div>HTML</div>-->
-<!--                <div>CSS</div>-->
-<!--                <div>SASS</div>-->
-<!--                <div>Bootstrap</div>-->
-<!--                <div>Javascript</div>-->
-<!--                <div>Vue.js</div>-->
-<!--                <div>JQuery</div>-->
-<!--            </div>-->
-
-<!--&lt;!&ndash;            Back-End skills&ndash;&gt;-->
-<!--            <div>-->
-<!--                <h2>Back-End</h2>-->
-<!--                <div>PHP</div>-->
-<!--                <div>SQL</div>-->
-<!--                <div>Laravel</div>-->
-<!--            </div>-->
-
-<!--&lt;!&ndash;            Talen&ndash;&gt;-->
-<!--            <div>-->
-<!--                <h2>Talen</h2>-->
-<!--                <div>Nederlands</div>-->
-<!--                <div><progress value="95" max="100"></progress></div>-->
-<!--                <div>Engels</div>-->
-<!--                <div><progress value="8" max="10"></progress></div>-->
-<!--                <div>Frans</div>-->
-<!--                <div><progress value="5" max="10"></progress></div>-->
-<!--            </div>-->
-
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

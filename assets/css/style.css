@@ -8,12 +8,15 @@
 .container{
     width: 70%;
 }
-aside{
+aside, header{
     background-color: #2e3848;
     color: #dddfe1;
 }
 aside h4{
     color: #b33350;
+}
+main{
+    background-color: #fdfbef;
 }
 .image{
     -webkit-border-radius: 50%;
@@ -25,11 +28,31 @@ aside h4{
     margin-top: 3em;
     z-index: 1;
 }
+.mainTop, .mainBottom{
+    border-right: 1px solid #2e3848;
+}
+.mainBottom{
+    border-bottom: 1px solid #2e3848;
+}
 .contact{
     padding-top: 5em;
 }
 .contactList, .languageList{
     list-style-type: none;
+}
+.contactList li p a{
+    text-decoration: none;
+    color: #fff;
+}
+.contactList li p a:hover{
+    text-decoration: underline;
+    color: #3232ff;
+}
+.contact-icon{
+    font-size: 1.4em;
+}
+li > i{
+    margin: auto;
 }
 .personal{
     width: 88%;
@@ -52,10 +75,10 @@ aside h4{
 .bg-brown{
     background-color: #b33350;
 }
-.border-language{
+.border-aside{
     height: 1px;
     border: 1px solid #b33350;
-    width: 75%;
+    width: 80%;
     margin: auto;
 }
 .years{
