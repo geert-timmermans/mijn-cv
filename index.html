@@ -12,165 +12,265 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+
 <div class="container">
     <div class="row">
-        <aside class="col-md-4 bg-info pt-5">
-
-                <img src="assets/images/Pasfoto.jpg" class="img-fluid image" alt="Foto Geert">
-
-<!--            Personal info-->
-            <div class="mt-5">
-                <h2>Personal</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet blanditiis dolorem, doloremque dolores eos eum fugiat id ipsam magnam, minima mollitia nesciunt nihil possimus quam quibusdam sit ullam vel?</p>
+<!--        Row with header, aside and main-->
+        <img src="assets/images/Pasfoto.jpg" class="img-fluid image" alt="Foto Geert">
+<!--        Header with name and job title-->
+        <header class="w-100 text-center py-3 bg-primary">
+            <h1>Geert Timmermans</h1>
+            <h2>Junior Web Developer</h2>
+        </header>
+<!--        Aside with contacct information-->
+        <aside class="asideTop contact col-md-4 bg-warning">
+            <div class="d-flex pt-4">
+                <h4><em>#</em>   Contact</h4>
             </div>
-
-<!--            Front-End skill-->
-            <div>
-                <h2>Front-End</h2>
-                <div>HTML</div>
-                <div>CSS</div>
-                <div>SASS</div>
-                <div>Bootstrap</div>
-                <div>Javascript</div>
-                <div>Vue.js</div>
-                <div>JQuery</div>
+            <div class="d-flex">
+                <div class="mr-3">
+                    <ul>
+                        <li><p>e-mail:</p></li>
+                        <li><p>Gsm:</p></li>
+                        <li><p>Adres:</p></li>
+                        <li><p>github:</p></li>
+                        <li><p>linkedin:</p></li>
+                    </ul>
+                </div>
+                <div class="">
+                    <ul>
+                        <li><p>geert.timmermans08@gmail.com</p></li>
+                        <li><p>+32 493 123 995</p></li>
+                        <li><p>3950 Bocholt</p></li>
+                        <li><p>github.com/geert-timmermans</p></li>
+                        <li><p>linkedin.com/in/geert-timmermans08</p></li>
+                    </ul>
+                </div>
             </div>
-
-<!--            Back-End skills-->
-            <div>
-                <h2>Back-End</h2>
-                <div>PHP</div>
-                <div>SQL</div>
-                <div>Laravel</div>
-            </div>
-
-<!--            Talen-->
-            <div>
-                <h2>Talen</h2>
-                <div>Nederlands</div>
-                <div><progress value="95" max="100"></progress></div>
-                <div>Engels</div>
-                <div><progress value="8" max="10"></progress></div>
-                <div>Frans</div>
-                <div><progress value="5" max="10"></progress></div>
-            </div>
-
-
         </aside>
-        <main class="col-md-8 pt-5">
+<!--        div for creating border-->
+        <div class="borderContact ml-3 my-auto"></div>
+<!--        Main with skill logos and personal information-->
+        <main class="mainTop col-md-7 mt-3 ml-5 bg-danger">
+<!--            skills with logos-->
             <div>
-                <h1>Geert Timmermans</h1>
-                <h2>Junior Web Developer</h2>
-    <!--            Contactgegevens-->
-                <div>
-                    <p>
-                        <i class="far fa-envelope"></i>
-                        geert.timmermans08@gmail.com
-                    </p>
-                    <p>
-                        <i class="fas fa-mobile-alt"></i>
-                        +32 493 12 39 95
-                    </p>
-                    <p>
-                        <i class="far fa-address-card"></i>
-                        Hertenlaan 20<br>
-                        3950 Bocholt
-                    </p>
+                <h4><em>#</em>   Skills</h4>
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="assets/images/html.png" alt="image html" class="icons">
+                        HTML5
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="assets/images/css.png" alt="image css" class="icons">
+                        CSS3
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="assets/images/sass.svg" alt="image sass" class="icons">
+                        SASS
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="assets/images/bootstrap.png" alt="image bootstrap" class="icons">
+                        Bootstrap
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="assets/images/javascript.png" alt="image javascript" class="icons">
+                        Javascript
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="assets/images/php.png" alt="image php" class="icons">
+                        PHP
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="assets/images/laravel.png" alt="image laravel" class="icons">
+                        Laravel
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="assets/images/mysql.png" alt="image mysql" class="icons">
+                        MySql
+                    </div>
                 </div>
             </div>
-<!--            Werkervaring-->
-            <div>
-                <h2>Werkervaring</h2>
-                <div>
-                    Januari 2019 - Heden
-                    Junior Web Developer
-                    BeCode - Genk
-                </div>
-                <div>
-                    uitleg over werkzaamheden Becode
-                </div>
-                <div>
-                    Maart 2015 - April 2018
-                    Supervisor / Teamleider
-                    Teleperformance - Maastricht
-                </div>
-                <div>
-                    uitleg over werkzaamheden TP Maastricht SV
-                </div>
-                <div>
-                    November 2013 - Maart 2015
-                    Helpdeskmedewerker
-                    Teleperformance - Roermond
-                </div>
-                <div>
-                    uitleg over werkzaamheden TP Maastricht agent
-                </div>
-                <div>
-                    September 2011 - September 2013
-                    Heftruckchauffeur
-                    H. Essers - Genk
-                </div>
-                <div>
-                    uitleg over werkzaamheden Essers Genk
-                </div>
-                <div>
-                    April 2006 - September 2011
-                    Arbeider / Monteur
-                    De Boer Tenten - Bree
-                </div>
-                <div>
-                    uitleg over werkzaamheden de boer
-                </div>
-                <div>
-                    September 2004 - April 2006
-                    Productiearbeider
-                    Inalfa - Hamont
-                </div>
-                <div>
-                    uitleg over werkzaamheden inalfa
-                </div>
+<!--            personal info-->
+            <div class="mt-4">
+                <h4><em>#</em>   Personal</h4>
+                Mijn naam is John, een flexibele, resultaatgerichte manager met ruime ervaring binnen het productiewezen en in de voedselindustrie. Mijn managementstijl kenmerkt zich het best als dienend leiderschap: ik zet anderen in hun kracht om zo samen goed te presteren. Ook niet onbelangrijk: ik beschik over een goede portie humor en heb nooit een ochtendhumeur!
             </div>
-
-<!--            Opleidingen-->
-            <div>
-                <h2>Opleidingen</h2>
-                <div>
-                    Januari 2019 - Heden
-                    Junior Web Developer
-                    BeCode - Genk
-                </div>
-                <div>
-                    uitleg over opleiding Becode
-                </div>
-                <div>
-                    April 2018 - Februari 2019
-                    ICT & Administratie
-                    Qrios - Maasmechelen
-                </div>
-                <div>
-                    uitleg over opleiding ict & administratie
-                </div>
-                <div>
-                    September 2012 - Juni 2015
-                    Netwerkbeheerder
-                    Syntra - Genk
-                </div>
-                <div>
-                    uitleg over opleiding netwerkbeheerder
-                </div>
-                <div>
-                    September 1997 - Juni 2004
-                    Secundair onderwijs Elektrotechnieken
-                    Tism - Bree
-                </div>
-                <div>
-                    uitleg over opleiding so elektro
-                </div>
-            </div>
-
         </main>
     </div>
+
+<!--    Row with main and bottom-->
+    <div class="row">
+<!--        Main with work experience and education-->
+        <main class="mainBottom experience">
+
+        </main>
+<!--        aside with languages, competences and hobby's-->
+        <aside class="asideBottem">
+
+        </aside>
+    </div>
 </div>
+<!--<div class="container">-->
+<!--    <div class="row">-->
+<!--        <aside class="col-md-4 bg-info pt-5">-->
+
+<!--                <img src="assets/images/Pasfoto.jpg" class="img-fluid image" alt="Foto Geert">-->
+
+<!--&lt;!&ndash;            Personal info&ndash;&gt;-->
+<!--            <div class="mt-5">-->
+<!--                <h2>Personal</h2>-->
+<!--                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet blanditiis dolorem, doloremque dolores eos eum fugiat id ipsam magnam, minima mollitia nesciunt nihil possimus quam quibusdam sit ullam vel?</p>-->
+<!--            </div>-->
+
+<!--&lt;!&ndash;            Front-End skill&ndash;&gt;-->
+<!--            <div>-->
+<!--                <h2>Front-End</h2>-->
+<!--                <div>HTML</div>-->
+<!--                <div>CSS</div>-->
+<!--                <div>SASS</div>-->
+<!--                <div>Bootstrap</div>-->
+<!--                <div>Javascript</div>-->
+<!--                <div>Vue.js</div>-->
+<!--                <div>JQuery</div>-->
+<!--            </div>-->
+
+<!--&lt;!&ndash;            Back-End skills&ndash;&gt;-->
+<!--            <div>-->
+<!--                <h2>Back-End</h2>-->
+<!--                <div>PHP</div>-->
+<!--                <div>SQL</div>-->
+<!--                <div>Laravel</div>-->
+<!--            </div>-->
+
+<!--&lt;!&ndash;            Talen&ndash;&gt;-->
+<!--            <div>-->
+<!--                <h2>Talen</h2>-->
+<!--                <div>Nederlands</div>-->
+<!--                <div><progress value="95" max="100"></progress></div>-->
+<!--                <div>Engels</div>-->
+<!--                <div><progress value="8" max="10"></progress></div>-->
+<!--                <div>Frans</div>-->
+<!--                <div><progress value="5" max="10"></progress></div>-->
+<!--            </div>-->
+
+
+<!--        </aside>-->
+<!--        <main class="col-md-8 pt-5">-->
+<!--            <div>-->
+<!--                <h1>Geert Timmermans</h1>-->
+<!--                <h2>Junior Web Developer</h2>-->
+<!--    &lt;!&ndash;            Contactgegevens&ndash;&gt;-->
+<!--                <div>-->
+<!--                    <p>-->
+<!--                        <i class="far fa-envelope"></i>-->
+<!--                        geert.timmermans08@gmail.com-->
+<!--                    </p>-->
+<!--                    <p>-->
+<!--                        <i class="fas fa-mobile-alt"></i>-->
+<!--                        +32 493 12 39 95-->
+<!--                    </p>-->
+<!--                    <p>-->
+<!--                        <i class="far fa-address-card"></i>-->
+<!--                        Hertenlaan 20<br>-->
+<!--                        3950 Bocholt-->
+<!--                    </p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--&lt;!&ndash;            Werkervaring&ndash;&gt;-->
+<!--            <div>-->
+<!--                <h2>Werkervaring</h2>-->
+<!--                <div>-->
+<!--                    Januari 2019 - Heden-->
+<!--                    Junior Web Developer-->
+<!--                    BeCode - Genk-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    uitleg over werkzaamheden Becode-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    Maart 2015 - April 2018-->
+<!--                    Supervisor / Teamleider-->
+<!--                    Teleperformance - Maastricht-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    uitleg over werkzaamheden TP Maastricht SV-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    November 2013 - Maart 2015-->
+<!--                    Helpdeskmedewerker-->
+<!--                    Teleperformance - Roermond-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    uitleg over werkzaamheden TP Maastricht agent-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    September 2011 - September 2013-->
+<!--                    Heftruckchauffeur-->
+<!--                    H. Essers - Genk-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    uitleg over werkzaamheden Essers Genk-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    April 2006 - September 2011-->
+<!--                    Arbeider / Monteur-->
+<!--                    De Boer Tenten - Bree-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    uitleg over werkzaamheden de boer-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    September 2004 - April 2006-->
+<!--                    Productiearbeider-->
+<!--                    Inalfa - Hamont-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    uitleg over werkzaamheden inalfa-->
+<!--                </div>-->
+<!--            </div>-->
+
+<!--&lt;!&ndash;            Opleidingen&ndash;&gt;-->
+<!--            <div>-->
+<!--                <h2>Opleidingen</h2>-->
+<!--                <div>-->
+<!--                    Januari 2019 - Heden-->
+<!--                    Junior Web Developer-->
+<!--                    BeCode - Genk-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    uitleg over opleiding Becode-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    April 2018 - Februari 2019-->
+<!--                    ICT & Administratie-->
+<!--                    Qrios - Maasmechelen-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    uitleg over opleiding ict & administratie-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    September 2012 - Juni 2015-->
+<!--                    Netwerkbeheerder-->
+<!--                    Syntra - Genk-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    uitleg over opleiding netwerkbeheerder-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    September 1997 - Juni 2004-->
+<!--                    Secundair onderwijs Elektrotechnieken-->
+<!--                    Tism - Bree-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    uitleg over opleiding so elektro-->
+<!--                </div>-->
+<!--            </div>-->
+
+<!--        </main>-->
+<!--    </div>-->
+<!--</div>-->
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
