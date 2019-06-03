@@ -2,12 +2,19 @@
     margin: 0;
     padding: 0;
     font-family: 'Cantarell', sans-serif;
+    font-size: 1em;
 }
 
 .container{
     width: 70%;
 }
-
+aside{
+    background-color: #2e3848;
+    color: #dddfe1;
+}
+aside h4{
+    color: #b33350;
+}
 .image{
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -16,17 +23,24 @@
     position: absolute;
     margin-left: 2.5em;
     margin-top: 3em;
+    z-index: 1;
 }
 .contact{
-    margin-top: 5em;
+    padding-top: 5em;
 }
 .contactList, .languageList{
     list-style-type: none;
 }
-.borderContact{
-    width: 1px;
-    border-right: 1px solid black;
-    height: 20em;
+.personal{
+    width: 88%;
+    margin: auto;
+}
+.borderWork{
+    height: 60em;
+}
+.iconsDiv{
+    width: 88%;
+    margin: auto;
 }
 .icons{
     width: 100px;
@@ -34,4 +48,16 @@
 }
 .worklist{
     list-style-type: disc;
+}
+.bg-brown{
+    background-color: #b33350;
+}
+.border-language{
+    height: 1px;
+    border: 1px solid #b33350;
+    width: 75%;
+    margin: auto;
+}
+.years{
+    color: #b33350;
 }
