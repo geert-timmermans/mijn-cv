@@ -28,14 +28,12 @@ main{
     border-radius: 50%;
     max-height: 10em;
     position: absolute;
-    margin-left: 2.5em;
+    margin-left: 6em;
     margin-top: 3em;
     z-index: 1;
 }
 .mainTop, .mainBottom{
     border-right: 1px solid #2e3848;
-}
-.mainBottom{
     border-bottom: 1px solid #2e3848;
 }
 .contact{
@@ -58,7 +56,7 @@ main{
 li > i{
     margin: auto;
 }
-.personal{
+.personal, .work-experience, .education{
     width: 88%;
     margin: auto;
 }
@@ -96,7 +94,4 @@ li > i{
 }
 .border-main{
     width: 80%;
-}
-.border-main2{
-    width: 90%;
 }
