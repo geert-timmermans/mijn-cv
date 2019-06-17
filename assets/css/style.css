@@ -27,8 +27,7 @@ main{
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    /*max-height: 10em;*/
-    width: 10%;
+    max-height: 10em;
     position: absolute;
     margin-left: 6em;
     margin-top: 3em;
